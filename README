@@ -1,0 +1,25 @@
+Tiny unfinished Lua coroutine-based web framework.
+
+REQUIREMENTS
+------------
+
+Requires WSAPI (and Xavante to run it standalone).
+
+    luarocks install xavante
+    luarocks install wsapi-xavante
+
+RUNNING
+-------
+
+    cd lua-corweb
+    wsapi
+
+Then go to http://localhost:8080/app.lua/
+
+FILES
+-----
+
+app.lua   -- sample application
+web.lua   -- framework
+utils.lua -- some optional useful utility functions
+
